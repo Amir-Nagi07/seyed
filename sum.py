@@ -1,4 +1,4 @@
-def sum():
+def jam():
     m = int(input())
     s = input()
     n = int(input())
@@ -14,4 +14,5 @@ def sum():
             print(m / n)
         except ZeroDivisionError:
             print('not valid number')
-sum()
+if __name__ == '__main__':
+    jam()

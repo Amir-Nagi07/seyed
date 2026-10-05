@@ -11,4 +11,5 @@ def geuss():
                 print('upper than my nummber')
             elif n < m : 
                 print('smaller than my number')
-geuss()
+if __name__ == '__main__':
+    geuss()
